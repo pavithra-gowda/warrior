@@ -1,0 +1,12 @@
+{
+  "warhorn_config": "", 
+  "testwrapper": "/home/test/Downloads/warriorframework/warrior/Warriorspace/wrapper_files", 
+  "pythonsrcdir": "/home/test/Downloads/warriorframework/warrior", 
+  "pythonpath": "/usr/bin/python", 
+  "projdir": "/home/test/Downloads/warriorframework/warrior/Warriorspace/Projects", 
+  "idfdir": "/home/test/Downloads/warriorframework/warrior/Warriorspace/Data", 
+  "testsuitedir": "/home/test/Downloads/warriorframework/warrior/Warriorspace/Suites", 
+  "testdata": "/home/test/Downloads/warriorframework/warrior/Warriorspace/Config_files", 
+  "xmldir": "/home/test/Downloads/warriorframework/warrior/Warriorspace/Testcases", 
+  "engineer": "Dev Kumar Pal"
+}

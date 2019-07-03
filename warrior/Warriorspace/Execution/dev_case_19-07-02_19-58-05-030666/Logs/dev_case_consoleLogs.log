@@ -1,0 +1,22 @@
+-I- 
+
+-E- !!! *** Exception occurred during execution *** !!!
+-E- Exception Name: TypeError
+-E- Exception trace back: 
+ 	Traceback (most recent call last):
+  File "/home/test/Downloads/warriorframework/warrior/WarriorCore/testcase_driver.py", line 792, in main
+    jiraproj, tc_onError_action, iter_ts_sys)
+  File "/home/test/Downloads/warriorframework/warrior/WarriorCore/testcase_driver.py", line 494, in execute_testcase
+    get_testwrapper_file_details(testcase_filepath, data_repository)
+  File "/home/test/Downloads/warriorframework/warrior/WarriorCore/testcase_driver.py", line 462, in get_testwrapper_file_details
+    Utils.xml_Utils.getRoot(abs_testwrapperfile)
+  File "/home/test/Downloads/warriorframework/warrior/Framework/Utils/xml_Utils.py", line 91, in getRoot
+    tree = ElementTree.parse(filename)
+  File "/usr/lib/python2.7/xml/etree/ElementTree.py", line 1182, in parse
+    tree.parse(source, parser)
+  File "/usr/lib/python2.7/xml/etree/ElementTree.py", line 647, in parse
+    source = open(source, "rb")
+TypeError: coercing to Unicode: need string or buffer, bool found
+
+-I- jiraid not provided, will not update jira issue
+-E- xml file does not exist in provided path /home/test/Downloads/warriorframework/warrior/Warriorspace/Execution/deva_case_19-07-02_19-58-05-030666/Results/deva_case_junit.xml

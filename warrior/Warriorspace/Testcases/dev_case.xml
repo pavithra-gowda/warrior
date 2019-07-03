@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<Testcase>
+        <Details>
+                <Name>deva_case</Name>
+                <Title>trying_test</Title>
+                <Engineer>Dev Kumar Pal</Engineer>
+                <Date>2019-07-03</Date>
+                <Time>04:48</Time>
+                <State/>
+                <InputDataFile>../Data/deva_input_datafile.xml</InputDataFile>
+                <Datatype>Custom</Datatype>
+                <default_onError action="next"/>
+                <Logsdir/>
+                <Resultsdir/>
+                <ExpectedResults/>
+                <TestWrapperFile/>
+        </Details>
+        <Requirements>
+                <Requirement/>
+        </Requirements>
+        <Steps>
+                <step Driver="deva_driver" Keyword="full_name" TS="1" draft="no">
+                        <Arguments>
+                                <argument name="student" value="student1"/>
+                                <argument name="first_name" value="dev"/>
+                                <argument name="last_name" value="kumar"/>
+                                <argument name="full_name" value="dev kumar"/>
+                        </Arguments>
+                        <Execute ExecType="Yes"/>
+                        <onError action="next"/>
+                        <Description/>
+                        <iteration_type type="Standard"/>
+                        <context>positive</context>
+                        <impact>impact</impact>
+                        <runmode type="Standard" value=""/>
+                </step>
+        </Steps>
+</Testcase>

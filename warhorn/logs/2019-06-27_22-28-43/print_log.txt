@@ -1,0 +1,276 @@
+-I- The current python version installed is: 2.7.15+
+-I- Warrior requires Python 2.7.0 - till the latest release in the 2.7 family.
+-I- Python version satisfies requirements.
+-W- Pip not found.
+-I- Installing pip
+-I- Collecting pip
+  Downloading https://files.pythonhosted.org/packages/5c/e0/be401c003291b56efc55aeba6a80ab790d3d4cece2778288d65323009420/pip-19.1.1-py2.py3-none-any.whl (1.4MB)
+Collecting setuptools
+  Downloading https://files.pythonhosted.org/packages/ec/51/f45cea425fd5cb0b0380f5b0f048ebc1da5b417e48d304838c02d6288a1e/setuptools-41.0.1-py2.py3-none-any.whl (575kB)
+Collecting wheel
+  Downloading https://files.pythonhosted.org/packages/bb/10/44230dd6bf3563b8f227dbf344c908d412ad2ff48066476672f3a72e174e/wheel-0.33.4-py2.py3-none-any.whl
+Installing collected packages: pip, setuptools, wheel
+Successfully installed pip-19.1.1 setuptools-41.0.1 wheel-0.33.4
+
+-I- Pip installed.
+-I- Setuptools package is available.
+-I- usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+
+-I- Git is available
+-I- ve_name: war_virtualenv
+-I- destination: /home/test/Downloads/warriorframework/warhorn/war_virtualenv
+-E- Activating virtual env at /home/test/Downloads/warriorframework/warhorn/war_virtualenv resulted in exception [Errno 2] No such file or directory
+-E- Check ~/.local/bin/virtualenv is a proper virtualenv binary
+-I- Warhorn will not install jira as it was set to 'no' in the .xml file.
+-I- Warhorn will try to install lxml as it was set to 'yes' in the .xml file
+-I- installing lxml==3.3.3
+-I- Collecting lxml==3.3.3
+  Downloading https://files.pythonhosted.org/packages/17/16/e2cc2b8f99f342e17d2cb5f95d0fbb099ab7a236c3ff39eb3ad5416289e6/lxml-3.3.3.tar.gz (3.5MB)
+Building wheels for collected packages: lxml
+  Building wheel for lxml (setup.py): started
+  Building wheel for lxml (setup.py): finished with status 'error'
+  Running setup.py clean for lxml
+Failed to build lxml
+Installing collected packages: lxml
+  Running setup.py install for lxml: started
+    Running setup.py install for lxml: finished with status 'error'
+DEPRECATION: Python 2.7 will reach the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 won't be maintained after that date. A future version of pip will drop support for Python 2.7.
+WARNING: The directory '/home/test/.cache/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+WARNING: The directory '/home/test/.cache/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+  ERROR: Complete output from command /usr/bin/python -u -c 'import setuptools, tokenize;__file__='"'"'/tmp/pip-install-CIEFy1/lxml/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' bdist_wheel -d /tmp/pip-wheel-4q4PPe --python-tag cp27:
+  ERROR: Building lxml version 3.3.3.
+  Building without Cython.
+  ERROR: /bin/sh: 1: xslt-config: not found
+  
+  ** make sure the development packages of libxml2 and libxslt are installed **
+  
+  Using build configuration of libxslt
+  /usr/lib/python2.7/distutils/dist.py:267: UserWarning: Unknown distribution option: 'bugtrack_url'
+    warnings.warn(msg)
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build/lib.linux-x86_64-2.7
+  creating build/lib.linux-x86_64-2.7/lxml
+  copying src/lxml/__init__.py -> build/lib.linux-x86_64-2.7/lxml
+  copying src/lxml/sax.py -> build/lib.linux-x86_64-2.7/lxml
+  copying src/lxml/doctestcompare.py -> build/lib.linux-x86_64-2.7/lxml
+  copying src/lxml/builder.py -> build/lib.linux-x86_64-2.7/lxml
+  copying src/lxml/ElementInclude.py -> build/lib.linux-x86_64-2.7/lxml
+  copying src/lxml/pyclasslookup.py -> build/lib.linux-x86_64-2.7/lxml
+  copying src/lxml/usedoctest.py -> build/lib.linux-x86_64-2.7/lxml
+  copying src/lxml/_elementpath.py -> build/lib.linux-x86_64-2.7/lxml
+  copying src/lxml/cssselect.py -> build/lib.linux-x86_64-2.7/lxml
+  creating build/lib.linux-x86_64-2.7/lxml/includes
+  copying src/lxml/includes/__init__.py -> build/lib.linux-x86_64-2.7/lxml/includes
+  creating build/lib.linux-x86_64-2.7/lxml/html
+  copying src/lxml/html/__init__.py -> build/lib.linux-x86_64-2.7/lxml/html
+  copying src/lxml/html/soupparser.py -> build/lib.linux-x86_64-2.7/lxml/html
+  copying src/lxml/html/_diffcommand.py -> build/lib.linux-x86_64-2.7/lxml/html
+  copying src/lxml/html/ElementSoup.py -> build/lib.linux-x86_64-2.7/lxml/html
+  copying src/lxml/html/_html5builder.py -> build/lib.linux-x86_64-2.7/lxml/html
+  copying src/lxml/html/formfill.py -> build/lib.linux-x86_64-2.7/lxml/html
+  copying src/lxml/html/diff.py -> build/lib.linux-x86_64-2.7/lxml/html
+  copying src/lxml/html/builder.py -> build/lib.linux-x86_64-2.7/lxml/html
+  copying src/lxml/html/clean.py -> build/lib.linux-x86_64-2.7/lxml/html
+  copying src/lxml/html/usedoctest.py -> build/lib.linux-x86_64-2.7/lxml/html
+  copying src/lxml/html/_setmixin.py -> build/lib.linux-x86_64-2.7/lxml/html
+  copying src/lxml/html/defs.py -> build/lib.linux-x86_64-2.7/lxml/html
+  copying src/lxml/html/html5parser.py -> build/lib.linux-x86_64-2.7/lxml/html
+  creating build/lib.linux-x86_64-2.7/lxml/isoschematron
+  copying src/lxml/isoschematron/__init__.py -> build/lib.linux-x86_64-2.7/lxml/isoschematron
+  copying src/lxml/lxml.etree.h -> build/lib.linux-x86_64-2.7/lxml
+  copying src/lxml/lxml.etree_api.h -> build/lib.linux-x86_64-2.7/lxml
+  copying src/lxml/includes/schematron.pxd -> build/lib.linux-x86_64-2.7/lxml/includes
+  copying src/lxml/includes/xmlschema.pxd -> build/lib.linux-x86_64-2.7/lxml/includes
+  copying src/lxml/includes/c14n.pxd -> build/lib.linux-x86_64-2.7/lxml/includes
+  copying src/lxml/includes/uri.pxd -> build/lib.linux-x86_64-2.7/lxml/includes
+  copying src/lxml/includes/relaxng.pxd -> build/lib.linux-x86_64-2.7/lxml/includes
+  copying src/lxml/includes/xpath.pxd -> build/lib.linux-x86_64-2.7/lxml/includes
+  copying src/lxml/includes/xmlerror.pxd -> build/lib.linux-x86_64-2.7/lxml/includes
+  copying src/lxml/includes/xinclude.pxd -> build/lib.linux-x86_64-2.7/lxml/includes
+  copying src/lxml/includes/xslt.pxd -> build/lib.linux-x86_64-2.7/lxml/includes
+  copying src/lxml/includes/etreepublic.pxd -> build/lib.linux-x86_64-2.7/lxml/includes
+  copying src/lxml/includes/xmlparser.pxd -> build/lib.linux-x86_64-2.7/lxml/includes
+  copying src/lxml/includes/config.pxd -> build/lib.linux-x86_64-2.7/lxml/includes
+  copying src/lxml/includes/htmlparser.pxd -> build/lib.linux-x86_64-2.7/lxml/includes
+  copying src/lxml/includes/dtdvalid.pxd -> build/lib.linux-x86_64-2.7/lxml/includes
+  copying src/lxml/includes/tree.pxd -> build/lib.linux-x86_64-2.7/lxml/includes
+  copying src/lxml/includes/etree_defs.h -> build/lib.linux-x86_64-2.7/lxml/includes
+  copying src/lxml/includes/lxml-version.h -> build/lib.linux-x86_64-2.7/lxml/includes
+  creating build/lib.linux-x86_64-2.7/lxml/isoschematron/resources
+  creating build/lib.linux-x86_64-2.7/lxml/isoschematron/resources/rng
+  copying src/lxml/isoschematron/resources/rng/iso-schematron.rng -> build/lib.linux-x86_64-2.7/lxml/isoschematron/resources/rng
+  creating build/lib.linux-x86_64-2.7/lxml/isoschematron/resources/xsl
+  copying src/lxml/isoschematron/resources/xsl/XSD2Schtrn.xsl -> build/lib.linux-x86_64-2.7/lxml/isoschematron/resources/xsl
+  copying src/lxml/isoschematron/resources/xsl/RNG2Schtrn.xsl -> build/lib.linux-x86_64-2.7/lxml/isoschematron/resources/xsl
+  creating build/lib.linux-x86_64-2.7/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+  copying src/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_svrl_for_xslt1.xsl -> build/lib.linux-x86_64-2.7/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+  copying src/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_schematron_message.xsl -> build/lib.linux-x86_64-2.7/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+  copying src/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_dsdl_include.xsl -> build/lib.linux-x86_64-2.7/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+  copying src/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_abstract_expand.xsl -> build/lib.linux-x86_64-2.7/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+  copying src/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_schematron_skeleton_for_xslt1.xsl -> build/lib.linux-x86_64-2.7/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+  copying src/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/readme.txt -> build/lib.linux-x86_64-2.7/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+  running build_ext
+  building 'lxml.etree' extension
+  creating build/temp.linux-x86_64-2.7
+  creating build/temp.linux-x86_64-2.7/src
+  creating build/temp.linux-x86_64-2.7/src/lxml
+  x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fno-strict-aliasing -Wdate-time -D_FORTIFY_SOURCE=2 -g -fdebug-prefix-map=/build/python2.7-MW0004/python2.7-2.7.15=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC -I/tmp/pip-install-CIEFy1/lxml/src/lxml/includes -I/usr/include/python2.7 -c src/lxml/lxml.etree.c -o build/temp.linux-x86_64-2.7/src/lxml/lxml.etree.o -w
+  unable to execute 'x86_64-linux-gnu-gcc': No such file or directory
+  error: command 'x86_64-linux-gnu-gcc' failed with exit status 1
+  ----------------------------------------
+  ERROR: Failed building wheel for lxml
+    ERROR: Complete output from command /usr/bin/python -u -c 'import setuptools, tokenize;__file__='"'"'/tmp/pip-install-CIEFy1/lxml/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /tmp/pip-record-_dOjGo/install-record.txt --single-version-externally-managed --compile:
+    ERROR: Building lxml version 3.3.3.
+    Building without Cython.
+    ERROR: /bin/sh: 1: xslt-config: not found
+    
+    ** make sure the development packages of libxml2 and libxslt are installed **
+    
+    Using build configuration of libxslt
+    /usr/lib/python2.7/distutils/dist.py:267: UserWarning: Unknown distribution option: 'bugtrack_url'
+      warnings.warn(msg)
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib.linux-x86_64-2.7
+    creating build/lib.linux-x86_64-2.7/lxml
+    copying src/lxml/__init__.py -> build/lib.linux-x86_64-2.7/lxml
+    copying src/lxml/sax.py -> build/lib.linux-x86_64-2.7/lxml
+    copying src/lxml/doctestcompare.py -> build/lib.linux-x86_64-2.7/lxml
+    copying src/lxml/builder.py -> build/lib.linux-x86_64-2.7/lxml
+    copying src/lxml/ElementInclude.py -> build/lib.linux-x86_64-2.7/lxml
+    copying src/lxml/pyclasslookup.py -> build/lib.linux-x86_64-2.7/lxml
+    copying src/lxml/usedoctest.py -> build/lib.linux-x86_64-2.7/lxml
+    copying src/lxml/_elementpath.py -> build/lib.linux-x86_64-2.7/lxml
+    copying src/lxml/cssselect.py -> build/lib.linux-x86_64-2.7/lxml
+    creating build/lib.linux-x86_64-2.7/lxml/includes
+    copying src/lxml/includes/__init__.py -> build/lib.linux-x86_64-2.7/lxml/includes
+    creating build/lib.linux-x86_64-2.7/lxml/html
+    copying src/lxml/html/__init__.py -> build/lib.linux-x86_64-2.7/lxml/html
+    copying src/lxml/html/soupparser.py -> build/lib.linux-x86_64-2.7/lxml/html
+    copying src/lxml/html/_diffcommand.py -> build/lib.linux-x86_64-2.7/lxml/html
+    copying src/lxml/html/ElementSoup.py -> build/lib.linux-x86_64-2.7/lxml/html
+    copying src/lxml/html/_html5builder.py -> build/lib.linux-x86_64-2.7/lxml/html
+    copying src/lxml/html/formfill.py -> build/lib.linux-x86_64-2.7/lxml/html
+    copying src/lxml/html/diff.py -> build/lib.linux-x86_64-2.7/lxml/html
+    copying src/lxml/html/builder.py -> build/lib.linux-x86_64-2.7/lxml/html
+    copying src/lxml/html/clean.py -> build/lib.linux-x86_64-2.7/lxml/html
+    copying src/lxml/html/usedoctest.py -> build/lib.linux-x86_64-2.7/lxml/html
+    copying src/lxml/html/_setmixin.py -> build/lib.linux-x86_64-2.7/lxml/html
+    copying src/lxml/html/defs.py -> build/lib.linux-x86_64-2.7/lxml/html
+    copying src/lxml/html/html5parser.py -> build/lib.linux-x86_64-2.7/lxml/html
+    creating build/lib.linux-x86_64-2.7/lxml/isoschematron
+    copying src/lxml/isoschematron/__init__.py -> build/lib.linux-x86_64-2.7/lxml/isoschematron
+    copying src/lxml/lxml.etree.h -> build/lib.linux-x86_64-2.7/lxml
+    copying src/lxml/lxml.etree_api.h -> build/lib.linux-x86_64-2.7/lxml
+    copying src/lxml/includes/schematron.pxd -> build/lib.linux-x86_64-2.7/lxml/includes
+    copying src/lxml/includes/xmlschema.pxd -> build/lib.linux-x86_64-2.7/lxml/includes
+    copying src/lxml/includes/c14n.pxd -> build/lib.linux-x86_64-2.7/lxml/includes
+    copying src/lxml/includes/uri.pxd -> build/lib.linux-x86_64-2.7/lxml/includes
+    copying src/lxml/includes/relaxng.pxd -> build/lib.linux-x86_64-2.7/lxml/includes
+    copying src/lxml/includes/xpath.pxd -> build/lib.linux-x86_64-2.7/lxml/includes
+    copying src/lxml/includes/xmlerror.pxd -> build/lib.linux-x86_64-2.7/lxml/includes
+    copying src/lxml/includes/xinclude.pxd -> build/lib.linux-x86_64-2.7/lxml/includes
+    copying src/lxml/includes/xslt.pxd -> build/lib.linux-x86_64-2.7/lxml/includes
+    copying src/lxml/includes/etreepublic.pxd -> build/lib.linux-x86_64-2.7/lxml/includes
+    copying src/lxml/includes/xmlparser.pxd -> build/lib.linux-x86_64-2.7/lxml/includes
+    copying src/lxml/includes/config.pxd -> build/lib.linux-x86_64-2.7/lxml/includes
+    copying src/lxml/includes/htmlparser.pxd -> build/lib.linux-x86_64-2.7/lxml/includes
+    copying src/lxml/includes/dtdvalid.pxd -> build/lib.linux-x86_64-2.7/lxml/includes
+    copying src/lxml/includes/tree.pxd -> build/lib.linux-x86_64-2.7/lxml/includes
+    copying src/lxml/includes/etree_defs.h -> build/lib.linux-x86_64-2.7/lxml/includes
+    copying src/lxml/includes/lxml-version.h -> build/lib.linux-x86_64-2.7/lxml/includes
+    creating build/lib.linux-x86_64-2.7/lxml/isoschematron/resources
+    creating build/lib.linux-x86_64-2.7/lxml/isoschematron/resources/rng
+    copying src/lxml/isoschematron/resources/rng/iso-schematron.rng -> build/lib.linux-x86_64-2.7/lxml/isoschematron/resources/rng
+    creating build/lib.linux-x86_64-2.7/lxml/isoschematron/resources/xsl
+    copying src/lxml/isoschematron/resources/xsl/XSD2Schtrn.xsl -> build/lib.linux-x86_64-2.7/lxml/isoschematron/resources/xsl
+    copying src/lxml/isoschematron/resources/xsl/RNG2Schtrn.xsl -> build/lib.linux-x86_64-2.7/lxml/isoschematron/resources/xsl
+    creating build/lib.linux-x86_64-2.7/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+    copying src/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_svrl_for_xslt1.xsl -> build/lib.linux-x86_64-2.7/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+    copying src/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_schematron_message.xsl -> build/lib.linux-x86_64-2.7/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+    copying src/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_dsdl_include.xsl -> build/lib.linux-x86_64-2.7/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+    copying src/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_abstract_expand.xsl -> build/lib.linux-x86_64-2.7/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+    copying src/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_schematron_skeleton_for_xslt1.xsl -> build/lib.linux-x86_64-2.7/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+    copying src/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/readme.txt -> build/lib.linux-x86_64-2.7/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+    running build_ext
+    building 'lxml.etree' extension
+    creating build/temp.linux-x86_64-2.7
+    creating build/temp.linux-x86_64-2.7/src
+    creating build/temp.linux-x86_64-2.7/src/lxml
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fno-strict-aliasing -Wdate-time -D_FORTIFY_SOURCE=2 -g -fdebug-prefix-map=/build/python2.7-MW0004/python2.7-2.7.15=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC -I/tmp/pip-install-CIEFy1/lxml/src/lxml/includes -I/usr/include/python2.7 -c src/lxml/lxml.etree.c -o build/temp.linux-x86_64-2.7/src/lxml/lxml.etree.o -w
+    unable to execute 'x86_64-linux-gnu-gcc': No such file or directory
+    error: command 'x86_64-linux-gnu-gcc' failed with exit status 1
+    ----------------------------------------
+ERROR: Command "/usr/bin/python -u -c 'import setuptools, tokenize;__file__='"'"'/tmp/pip-install-CIEFy1/lxml/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /tmp/pip-record-_dOjGo/install-record.txt --single-version-externally-managed --compile" failed with error code 1 in /tmp/pip-install-CIEFy1/lxml/
+, 
+-E- lxml could not be installed!!
+-I- Warhorn will not install ncclient as it was set to 'no' in the .xml file.
+-I- Warhorn will try to install paramiko as it was set to 'yes' in the .xml file
+-I- installing paramiko==2.4.1
+-I- paramiko installation complete!
+-I- Warhorn will try to install pexpect as it was set to 'yes' in the .xml file
+-I- installing pexpect==4.2
+-I- pexpect installation complete!
+-I- Warhorn will try to install pysnmp as it was set to 'yes' in the .xml file
+-I- installing pysnmp==4.4.4
+-I- pysnmp installation complete!
+-I- Warhorn will try to install requests as it was set to 'yes' in the .xml file
+-I- installing requests==2.9.1
+-I- requests installation complete!
+-I- Warhorn will try to install selenium as it was set to 'yes' in the .xml file
+-I- installing selenium==2.48.0
+-I- selenium installation complete!
+-I- Warhorn will not install xlrd as it was set to 'no' in the .xml file.
+-I- Warhorn will try to install cloudshell-automation-api as it was set to 'yes' in the .xml file
+-I- installing cloudshell-automation-api==7.1.0.34
+-I- cloudshell-automation-api installation complete!
+-I- Warhorn will try to install pycryptodome as it was set to 'yes' in the .xml file
+-I- installing pycryptodome==3.6.1
+-I- pycryptodome installation complete!
+-I- The ability to upgrade/downgrade wariorframework version would be available for use soon.

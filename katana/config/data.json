@@ -1,0 +1,49 @@
+{
+"dir": "Warriorspace",
+"children": [
+{"dir": "Suites",
+"file": [ "demo_suite.xml", "Suite_Template.xml" ],"children": []},{"dir": "wrapper_files",
+"file": [ "tw_sample.xml" ],"children": []},{"dir": "Testcases",
+"file": [ "deva_case.xml" ],"children": [
+{"dir": "Demo_Cases",
+"file": [ "Demo_Test_Of_Inventory_Management_System.xml", "Demo_Warrior_Rest_Automation_Capabilities.xml", "Demo_Warrior_Web_Automation_With_Selenium.xml" ],"children": []},{"dir": "Samples",
+"file": [ "SNMP_Sample.xml", "Network_Utils_Sample.xml", "Rest_Sample.xml", "CLI_Sample.xml", "NetConf_Sample.xml" ],"children": []}]},{"dir": "Config_files",
+"file": [ "Config_File_Readme.txt" ],"children": [
+{"dir": "Demo_Config_Files",
+"file": [ "Demo_Selenium_Config.json", "Demo_Inventory_Mgt_Testdata.xml" ],"children": []},{"dir": "Samples",
+"file": [ "Netconf_Sample.xml", "Set_REPO_Variable_Sample.json", "Variable_Sample.xml", "CLI_Test_Data_Sample.xml", "Set_ENV_Variable_Sample.json" ],"children": []}]},{"dir": "Execution",
+"file": [ "Execution_readme.txt" ],"children": [
+{"dir": "deva_case_19-07-02_19-54-53-162426",
+"file": [ "deva_case.xml" ],"children": [
+{"dir": "Logs",
+"file": [ "deva_case_consoleLogs.log" ],"children": []},{"dir": "Defects",
+"children": []},{"dir": "Results",
+"file": [ "deva_case_results.xml" ],"children": [
+{"dir": "Keyword_Results",
+"children": []}]}]},{"dir": "deva_case",
+"file": [ "deva_case.xml" ],"children": [
+{"dir": "Logs",
+"file": [ "deva_case_consoleLogs.log" ],"children": []},{"dir": "Defects",
+"children": []},{"dir": "Results",
+"file": [ "deva_case_results.xml" ],"children": [
+{"dir": "Keyword_Results",
+"children": []}]}]},{"dir": "deva_case_19-07-02_20-00-20-654462",
+"file": [ "deva_case.xml" ],"children": [
+{"dir": "Logs",
+"file": [ "deva_case_consoleLogs.log" ],"children": []},{"dir": "Defects",
+"children": []},{"dir": "Results",
+"file": [ "deva_case_results.xml" ],"children": [
+{"dir": "Keyword_Results",
+"children": []}]}]},{"dir": "deva_case_19-07-02_19-58-05-030666",
+"file": [ "deva_case.xml" ],"children": [
+{"dir": "Logs",
+"file": [ "deva_case_consoleLogs.log" ],"children": []},{"dir": "Defects",
+"children": []},{"dir": "Results",
+"file": [ "deva_case_results.xml" ],"children": [
+{"dir": "Keyword_Results",
+"children": []}]}]}]},{"dir": "Data",
+"file": [ "Input_Data_File_Readme.txt", "Input_data_File_Template.xml", "deva_input_datafile.xml" ],"children": [
+{"dir": "Samples",
+"file": [ "CLI_Data_Sample.xml", "Network_Util_Data_Sample.xml", "Rest_Data_Sample.xml", "netconf_Data_sample.xml", "SNMP_Data_Sample.xml" ],"children": []},{"dir": "Demo_Input_Data_Files",
+"file": [ "Demo_Datafile_For_Inventory_Mgt.xml", "Demo_Rest_Datafile.xml", "Demo_Selenium_Data.xml" ],"children": []}]},{"dir": "Projects",
+"file": [ "demo_project.xml", "Project_Template.xml" ],"children": []}]}
